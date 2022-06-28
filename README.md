@@ -2,7 +2,7 @@
 
 Sistema de transferência de pagamentos, criado com a finalidade de testes para Empresa X.
 
-Como Rodar a Applicação
+Como Rodar a Applicação<br/>
 •	Clone o repositório comando =  git clone
 •	Copie .env.example para .env e edite as configuraçãoes incluído suas credencias de banco de dados
 •	Voce pode utilizar qualquer banco que o ORM eloquent tenha suporte, no meu caso utilizei o MYSQL
