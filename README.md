@@ -2,7 +2,8 @@
 
 Sistema de transferência de pagamentos, criado com a finalidade de testes para Empresa X.
 
-Como Rodar a Applicação<br/>
+Como Rodar a Applicação
+
 •	Clone o repositório comando =  git clone
 
 •	Copie .env.example para .env e edite as configuraçãoes incluído suas credencias de banco de dados
@@ -31,7 +32,9 @@ Como utilizar
 }
 
 value = Valor da Transação
+
 user_id = Usuário que vai ser debitado a transação
+
 user_id_send = Usuário que vai receber a transação
 
 
