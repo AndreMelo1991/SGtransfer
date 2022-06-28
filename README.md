@@ -17,6 +17,17 @@ Como Rodar a Applicação
 •	Rode o comando = php artisan migrate --seed  para criar as tabelas via migrate e também para popular os dados.
 
 •	Após isto start seu apache utilizado aqui localmente o serve do artisan caso necessite segue o comando  php artisan serve
+
+Caso seja necessário a intalção do JWT TOKEN
+
+• comando = composer require tymon/jwt-auth
+• comando = php artisan jwt:secret
+• Recuperar o secret e incluir no arquivo .env
+
+Exempo : JWT_SECRET=RGffekr......hGKasf5u
+
+• Rodar comando = php artisan config:cache  para o laravel entender todas as configurações e constantes utiliziadas.
+
 Como utilizar
 
 •	Primeiro deve-se autenticar via jw token na api, utilizando o end poit /api/authenticate
