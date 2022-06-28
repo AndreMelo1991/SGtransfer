@@ -8,7 +8,8 @@ class DatabaseSeeder extends Seeder
     {
         $this->call([
             ProfileSeeder::class,
-            UsuarioSeeder::class
+            UsuarioSeeder::class,
+            AccountSeeder::class
         ]);    
     }
 }

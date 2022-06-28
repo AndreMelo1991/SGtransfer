@@ -1,17 +1,17 @@
 <?php
 
-namespace App\Models\Repositories;
+namespace App\Models\Entities;
 
 
 use Illuminate\Database\Eloquent\Model;
 
-Class ProfileEntity extends Model 
+Class TransactionEntity extends Model 
 {
     
-    protected $table = 'profiles';
+    protected $table = 'transactions';
     
     protected $fillable = [
-        'name'
+        'user_id','user_id_send','amount'
     ];
     
     protected $guarded = [
